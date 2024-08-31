@@ -1,0 +1,11 @@
+对drug、disease、target三者之间负样本的说明：
+
+neg0.csv:三者之间没有任何关系
+neg1.csv:只有drug-disease存在关系
+neg2.csv:只有drug-target存在关系
+neg3.csv:只有disease-target存在关系
+neg4.csv:drug-disease和drug-target有关，disease-target无关
+neg5.csv:drug-disease和disease-target有关，drug-target无关
+neg6.csv:drug-target和disease-target有关，drug-disease无关
+
+所有负样本混合，选出和正样本一样多的进行预测。
